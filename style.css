@@ -15,7 +15,7 @@ body {
     width: 400px;
     height: 200px;
     /* box shadow */
-    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
     border-radius: 10px;
     /* center emoji and star with respect to parents it will not get in center just pointing this as parents*/
     position: relative;
@@ -42,7 +42,7 @@ body {
 }
 
 .far {
-    margin: 1px; 
+    margin: 1px;
     transform: translateX(0);
     /* adding transition to emojis */
     transition: transform 0.2s;

@@ -2,6 +2,9 @@ const starsEl = document.querySelectorAll(".fa-star")
 // console.log(starsEl)
 const emojisEl = document.querySelectorAll(".far")
 // console.log(emojisEl)
+const colorsArray = ["red", "maroon", "orange", "blue", "green"]
+
+updateRating(0); // calling at first just to start the emoji from red i.e at 0th index
 
 starsEl.forEach((x, index) => {
     x.addEventListener("click", () => {
@@ -20,5 +23,6 @@ function updateRating(index) {
     });
     emojisEl.forEach((y) => {
         y.style.transform = `translateX(-${index * 50}px)`;
+        y.style.color = colorsArray[index];
     });
 }
