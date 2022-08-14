@@ -44,6 +44,8 @@ body {
 .far {
     margin: 1px; 
     transform: translateX(0);
+    /* adding transition to emojis */
+    transition: transform 0.2s;
 }
 
 /* rating */
